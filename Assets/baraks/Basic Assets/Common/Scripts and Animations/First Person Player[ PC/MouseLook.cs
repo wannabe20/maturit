@@ -4,8 +4,8 @@ namespace SojaExiles
 {
     public class MouseLook : MonoBehaviour
     {
-        public float mouseXSensitivity = 100f;
-        public float mouseYSensitivity = 100f; // Separate sensitivity for Y-axis
+        public float mouseXSensitivity = 10f;
+        public float mouseYSensitivity = 10f; 
         public Transform playerBody;
 
         float xRotation = 0f;

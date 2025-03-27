@@ -6,6 +6,15 @@ public class MainMenu : MonoBehaviour
     public GameObject mainMenuCanvas;  // Assign the Main Menu Canvas
     public GameObject settingsCanvas;  // Assign the Settings Canvas
 
+    void Start()
+    {
+        GameObject mainMenuUI = GameObject.Find("MainMenuCanvas"); // Change to your UI GameObject name
+        if (mainMenuUI != null)
+        {
+            mainMenuUI.SetActive(true);
+        }
+    }
+
     public void StartGame()
     {
         SceneManager.LoadScene("GameScene");
@@ -28,4 +37,6 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
         Debug.Log("Game is quitting..."); // For testing in the editor
     }
+
+
 }

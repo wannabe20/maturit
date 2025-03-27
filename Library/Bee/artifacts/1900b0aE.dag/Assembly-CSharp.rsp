@@ -387,6 +387,7 @@
 "Assets/baraks/Basic Assets/Common/Scripts and Animations/PauseMenu.cs"
 "Assets/baraks/Basic Assets/Common/Scripts and Animations/SettingsManager.cs"
 "Assets/baraks/Basic Assets/Common/Scripts and Animations/SoundManager.cs"
+"Assets/baraks/Basic Assets/Common/Scripts and Animations/WakeupSequence.cs"
 "Assets/baraks/Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs"
 "Assets/baraks/Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"

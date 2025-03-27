@@ -19,34 +19,32 @@ namespace SojaExiles
 
 		void OnMouseOver()
 		{
+			
+			if (Player)
 			{
-				if (Player)
+				float dist = Vector3.Distance(Player.position, transform.position);
+				if (dist < 3f)
 				{
-					float dist = Vector3.Distance(Player.position, transform.position);
-					if (dist < 15)
+					if (open == false)
 					{
-						if (open == false)
+						if (Input.GetMouseButtonDown(0))
+						{
+							StartCoroutine(opening());
+						}
+					}
+					else
+					{
+						if (open == true)
 						{
 							if (Input.GetMouseButtonDown(0))
 							{
-								StartCoroutine(opening());
+								StartCoroutine(closing());
 							}
-						}
-						else
-						{
-							if (open == true)
-							{
-								if (Input.GetMouseButtonDown(0))
-								{
-									StartCoroutine(closing());
-								}
-							}
-
 						}
 
 					}
-				}
 
+				}
 			}
 
 		}

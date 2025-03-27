@@ -124,6 +124,7 @@
     <Compile Include="Assets\baraks\Basic Assets\Common\Scripts and Animations\Kidnapper\KidnapperAI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
     <Compile Include="Assets\baraks\Apartment Kit\Common\Scripts &amp; Animation\OvenOpen\OvenFlip.cs" />
+    <Compile Include="Assets\baraks\Basic Assets\Common\Scripts and Animations\WakeupSequence.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

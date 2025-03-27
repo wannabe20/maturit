@@ -1095,7 +1095,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 256}
-  m_SizeDelta: {x: 600, y: 50}
+  m_SizeDelta: {x: 650, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &353294104
 MonoBehaviour:
@@ -1150,7 +1150,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 256
   m_textAlignment: 65535
@@ -1997,7 +1997,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3138,7 +3138,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3416,7 +3416,7 @@ MonoBehaviour:
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 1
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
@@ -3727,13 +3727,14 @@ GameObject:
   - component: {fileID: 1250730628}
   - component: {fileID: 1250730627}
   - component: {fileID: 1250730626}
+  - component: {fileID: 1250730630}
   m_Layer: 5
   m_Name: SettingsCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1250730626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3817,6 +3818,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1250730630
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1250730625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e5b847883ffaf743b10c4099da5ae36, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 1438267899}
+  audioMixer: {fileID: 24100000, guid: 91993a07baa7c4c4893a3e8149b39f44, type: 2}
+  screenModeDropdown: {fileID: 1414684334}
+  forwardKeyButton: {fileID: 1227914775}
+  backwardKeyButton: {fileID: 1827346893}
+  leftKeyButton: {fileID: 2116053049}
+  rightKeyButton: {fileID: 1641586600}
+  interactKeyButton: {fileID: 1298480434}
+  doorKeyButton: {fileID: 1785986386}
 --- !u!1 &1298480432
 GameObject:
   m_ObjectHideFlags: 0
@@ -4404,14 +4426,13 @@ GameObject:
   - component: {fileID: 1556754866}
   - component: {fileID: 1556754868}
   - component: {fileID: 1556754867}
-  - component: {fileID: 1556754869}
   m_Layer: 5
   m_Name: SettingsPanel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1556754866
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4479,27 +4500,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1556754865}
   m_CullTransparentMesh: 1
---- !u!114 &1556754869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1556754865}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2e5b847883ffaf743b10c4099da5ae36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeSlider: {fileID: 1438267899}
-  audioMixer: {fileID: 24100000, guid: 91993a07baa7c4c4893a3e8149b39f44, type: 2}
-  screenModeDropdown: {fileID: 1414684334}
-  forwardKeyButton: {fileID: 1227914775}
-  backwardKeyButton: {fileID: 1827346893}
-  leftKeyButton: {fileID: 2116053049}
-  rightKeyButton: {fileID: 1641586600}
-  interactKeyButton: {fileID: 1298480434}
-  doorKeyButton: {fileID: 1785986386}
 --- !u!1 &1641586598
 GameObject:
   m_ObjectHideFlags: 0

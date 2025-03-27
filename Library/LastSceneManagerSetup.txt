@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/baraks/Apartment Kit/Scenes/GameScene.unity
+- path: Assets/baraks/Apartment Kit/Scenes/MainMenu.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
