@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02.unity
+- path: Assets/baraks/Apartment Kit/Scenes/GameScene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

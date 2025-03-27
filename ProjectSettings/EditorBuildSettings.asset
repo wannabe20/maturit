@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/baraks/Apartment Kit/Scenes/MainMenu.unity
+    guid: c5f164a8e38267c4ab622545d54062de
+  - enabled: 1
+    path: Assets/baraks/Apartment Kit/Scenes/GameScene.unity
+    guid: 9b5aa6428ba7a6246bd201ba8d95cebe
   m_configObjects: {}
